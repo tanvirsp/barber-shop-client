@@ -1,0 +1,52 @@
+.login-section {
+    background-color: black;
+
+}
+
+
+
+.signin {
+    width: 500px;
+    height: 100px;
+    /* background-color: #f7f7f7; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+
+}
+
+.signin-btn {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.157);
+    border-radius: 50px;
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+    margin-top: 25px;
+}
+
+.signin-btn:hover {
+    box-shadow: 0 0 10px 2px  rgba(0, 0, 0, 0.1);
+}
+
+.signin-btn p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.signin-btn img {
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}

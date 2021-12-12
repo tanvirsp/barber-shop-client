@@ -1,0 +1,32 @@
+.about-section {
+	background-image: url('../../../images/about-ground-bg.png');
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-size: cover;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h5 {
+    font-size: 18x;
+    color: #a3712a;
+    font-weight: 400;
+}
+
+
+
+.moc-up {
+	animation: moving ease-in-out 3s infinite alternate;
+}
+
+@keyframes moving {
+	0% {
+		transform:translateY(-50px);
+	}
+
+	100% {
+		transform: translateY(0px);
+	}
+}

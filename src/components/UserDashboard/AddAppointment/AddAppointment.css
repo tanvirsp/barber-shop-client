@@ -1,0 +1,50 @@
+.add-appointment-section input[type=submit] {
+    background-color: #a3712a;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.add-appointment-section input[type=submit]:hover {
+    background-color: #77501a;
+}
+
+
+.services-section {
+    text-align: center;
+    border: 1px solid lightgray;
+    width: 300px;
+    background-color: #f7f7f7;
+}
+
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.add-appointment-section span {
+    color: red;
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+
+.payment-section {
+    background-color: white;
+    height: 200px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;;
+}

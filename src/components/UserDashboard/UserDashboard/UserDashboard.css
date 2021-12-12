@@ -1,0 +1,52 @@
+
+
+.user-info img {
+    width: 150px;
+    border-radius: 500px;
+    margin-right: 25px;
+}
+
+.user-side-nav {
+    background-color: white;
+    padding: 25px 10px;
+
+    border-right: 1px solid lightgray;
+    
+}
+.user-side-nav ul li {
+    margin: 15px 0;
+    text-align: start;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 500ms;
+    padding: 5px 25px;
+}
+
+.user-side-nav ul li i {
+    margin-right: 15px;
+}
+
+.user-side-nav ul li:hover {
+    transform:translateX(25px);
+}
+
+.user-action {
+    margin-top: 75px;
+}
+.user-action button {
+    display: block;
+    border: 2px solid  #a3712a;
+    background-color: white;
+    padding: 10px 25px;
+    color:  #a3712a;;
+    margin: 15px auto;
+    width: 100%;
+    border-radius: 25px;
+    transition: all 300ms;
+}
+
+.user-action button:hover {
+    background-color: #a3712a;
+    color:white;
+
+}

@@ -1,0 +1,35 @@
+.edit-container {
+    height: 470px;
+    width: 900px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    padding: 55px 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+.preview-img {
+    height: 150px;
+}
+
+
+.close-btn i {
+    color: red;
+    font-size: 35px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.edit-container input[type=submit] {
+    width: 300px;
+    margin: auto;
+    border-radius: 50px;
+    margin-top: 35px;
+}

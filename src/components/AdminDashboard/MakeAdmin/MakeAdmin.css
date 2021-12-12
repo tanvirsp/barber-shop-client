@@ -1,0 +1,23 @@
+.admin-section {
+    background-color: white;
+    padding: 35px;
+    width: 700px;
+    height: 150px;
+    display: flex;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+
+.admin-section input[type=text] {
+    width: 70%;
+}
+
+.admin-section input[type=button] {
+    width: 30%;
+    background-color: #a3712a;
+    color:white;
+}
